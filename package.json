@@ -1,0 +1,24 @@
+{
+    "name": "node_https_server",
+    "version": "1.0.0",
+    "description": "basic nodejs https server",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "clear; node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adamjondixon/node_https_server.git"
+    },
+    "author": "Adam Dixon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adamjondixon/node_https_server/issues"
+    },
+    "homepage": "https://github.com/adamjondixon/node_https_server#readme",
+    "dependencies": {
+        "express": "^4.21.1"
+    }
+}
